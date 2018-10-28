@@ -1,0 +1,7 @@
+---
+- name: Ping s all the sysytem
+  ignore_errors: true
+  hosts: all
+  tasks:
+    - name: Ping
+      ping:
